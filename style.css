@@ -10,12 +10,22 @@ h1{
 }
 
 .half-width{
-    width: 40%;
+    width: 43%;
     float: left;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 
 .half-width img{
-    width: 60%;
+    width: 61%;
+}
+
+.top-banner{
+    /* border: 1px solid; */
+    background-repeat: no-repeat;
+    background-image: url(image/top-banner.png);
+}
+
+section{
+    height: 500px;
 }
