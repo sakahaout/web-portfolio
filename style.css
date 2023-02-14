@@ -8,3 +8,14 @@ h1{
 .name-hightlight{
     color: orange;
 }
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 60%;
+}
