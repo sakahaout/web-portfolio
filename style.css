@@ -1,10 +1,14 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
     
+}
+h2{
+    font-size: 40px;
 }
 .name-hightlight{
     color: orange;
@@ -12,15 +16,16 @@ h1{
 
 .half-width{
     /* border: 1px solid; */
-    width: 43%;
+    width: 40%;
     float: left;
-    margin-left: 4%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 
 .half-width img{
-    width: 60%;
-    margin-left: 14%;
+    width: 600px;
+    height: 600px;
+   
 }
 
 .top-banner{
@@ -30,7 +35,8 @@ h1{
 }
 
 section{
-    height: 500px;
+    height: 600px;
+    padding-bottom: 100px;
 }
 
 .link-button{
@@ -40,4 +46,9 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
